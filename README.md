@@ -53,7 +53,7 @@ The `install.sh` script automatically adds your user to the `input` group.
 If the mouse still doesn't move after reboot, run manually:
 ```bash
 ydotoold --socket-perm 666 &
-``
+```
 
 ### Important Notes
 
