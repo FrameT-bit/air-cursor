@@ -87,7 +87,7 @@ Gesture calibration tool
 
 
 
-
+### Thank you!
 
 Want to contribute? Pull requests are welcome.
 
