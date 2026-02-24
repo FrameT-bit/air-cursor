@@ -23,6 +23,8 @@ atexit.register(lambda: os.path.exists(LOCK_FILE) and os.remove(LOCK_FILE))
 
 os.environ["QT_QPA_PLATFORM"] = "xcb"
 
+# had to add this because there was a problem with dead processes spamming windows like crazy
+
 # ==================== YDOTOOL AUTO START ====================
 subprocess.run(['pkill', '-9', 'ydotoold'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 time.sleep(0.5)
