@@ -79,6 +79,11 @@ def count_extended_fingers(landmarks):
     return count
 
 print("AirCursor started.")
+
+if not os.path.exists("hand_landmarker.task"):
+    print("Downloading model file (first time only, ~70MB)...")
+    subprocess.run(["wget", "-q", "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task"])
+
 print("Ctrl + C to stop.\n")
 
 # ==================== TKINTER OVERLAY ====================
