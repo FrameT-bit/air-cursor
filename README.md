@@ -50,8 +50,6 @@ Tested on Fedora 43 + Wayland
 Still a personal project, works great for me, but may need some tuning for you.
 
 Made with caffeine.
+
 Want to contribute? Pull requests are welcome.
 Want to complain? Also welcome!
-cd air-cursor
-chmod +x install.sh
-./install.sh
