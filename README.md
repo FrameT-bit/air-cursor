@@ -58,11 +58,24 @@ ydotoold --socket-perm 666 &
 ### Important Notes
 
 Works best with good lighting
+
 Optimized for right hand (also tested on left hand)
+
 Tested on Fedora 43 + Wayland
+
 Still a personal project, works great for me, but may need some tuning for you.
 
-Made with caffeine.
+### Known issues
+
+Some commands (Volume +/-, Minimize) may not work perfectly yet
+
+On GNOME, the cursor can get stuck on hot corners. Disabling hot corners temporarily fixes it.
+
+
+
+
+
 
 Want to contribute? Pull requests are welcome.
+
 Want to complain? Also welcome!
