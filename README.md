@@ -31,7 +31,7 @@ Built after staying up all night instead of playing Minecraft because I saw a bu
 ### Installation
 
 ```bash
-git clone https://github.com/Fr4meT/air-cursor.git
+git clone https://github.com/FrameT-bit/air-cursor.git
 cd air-cursor
 chmod +x install.sh
 ./install.sh
