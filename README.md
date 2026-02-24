@@ -71,6 +71,19 @@ Some commands (Volume +/-, Minimize) may not work perfectly yet
 
 On GNOME, the cursor can get stuck on hot corners. Disabling hot corners temporarily fixes it.
 
+# UP NEXT
+
+Native Windows support
+
+More gestures (right click, scroll wheel, drag & drop improvements)
+
+Configuration file (change gestures and actions without editing code)
+
+Better overlay (transparent + customizable position)
+
+Auto-start on login
+
+Gesture calibration tool
 
 
 
