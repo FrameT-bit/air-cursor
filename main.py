@@ -6,6 +6,14 @@ import tkinter as tk
 import os
 import atexit
 import numpy as np
+import sys
+
+# ==================== VENV CHECK ====================
+if sys.prefix == sys.base_prefix:
+    print("WARNING: You are not running inside a virtual environment.")
+    print("It is strongly recommended to activate the venv first:")
+    print("   source venv/bin/activate")
+    print("")
 
 # ==================== ANTI-SPAM LOCK ====================
 LOCK_FILE = "/tmp/air_cursor.lock"
