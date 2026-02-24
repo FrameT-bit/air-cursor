@@ -42,6 +42,19 @@ source venv/bin/activate
 python main.py
 ```
 
+### Important: Permissions (Required)
+
+AirCursor uses **ydotool** to control the mouse and keyboard. It needs special permissions:
+
+The `install.sh` script automatically adds your user to the `input` group.
+
+**After running install.sh, you must reboot your computer.**
+
+If the mouse still doesn't move after reboot, run manually:
+```bash
+ydotoold --socket-perm 666 &
+``
+
 ### Important Notes
 
 Works best with good lighting
